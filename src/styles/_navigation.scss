@@ -1,0 +1,31 @@
+.fa-cart-plus:hover {
+  color: white;
+}
+.main-navbar {
+  display: flex;
+  align-items: center;
+  background-color: $mainBlue;
+  color: white;
+  font-size: 1.5rem;
+  background-color: $mainBlue;
+  padding: 15px;
+  flex-wrap: nowrap !important;
+  margin: 0;
+
+  ul {
+    margin: 0;
+    list-style-type: none;
+  }
+  .cart-box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  a {
+    color: white;
+    text-transform: capitalize;
+    &:hover {
+      color: #009ffd;
+      text-decoration: none;
+    }
+  }
+}

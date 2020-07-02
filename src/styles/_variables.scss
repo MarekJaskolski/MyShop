@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+// fonts
+$mainFont: "Oswald", sans-serif;
+$textDecoration: "Lobster", cursive;
+
+//colors
+$mainBlue: #ffa400;
+$lightBlue: #009ffd;
+$mainWhite: #f3f3f3;
+$mainDark: #232528;
+$mainYellow: #2a2a72;
+
+:root {
+  --mainBlue-color: #ffa400;
+  --lightBlue-color: #009ffd;
+  --mainWhite-color: #f3f3f3;
+  --mainDark-color: #232528;
+  --mainYellow-color: #2a2a72;
+}
