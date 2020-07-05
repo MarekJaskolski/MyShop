@@ -15,7 +15,7 @@ const Navigation = () => {
       </div>
       <ul className="col-xs-2 col-sm-2">
         <li>
-          <Link to="/">Products</Link>
+          <Link to="/products">Products</Link>
         </li>
       </ul>
       <div className="col-xs-8 col-sm-8 cart-box">

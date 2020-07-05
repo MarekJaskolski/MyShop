@@ -8,13 +8,15 @@ import Details from "./components/Details";
 import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
       <Navigation />
       <Switch>
-        <Route exact path="/" component={Products}></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/products" component={Products}></Route>
         <Route path="/details" component={Details}></Route>
         <Route path="/cart" component={Cart}></Route>
         <Route component={Default}></Route>
